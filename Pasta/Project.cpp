@@ -9,6 +9,8 @@ int main() {
 
 	testTypeSpaghetti(clua);
 	testDiscriptionSpaghetti(clua);
+	cout << endl;
+	testGetAllParametersSpaghetti(clua);
 
 
 }
