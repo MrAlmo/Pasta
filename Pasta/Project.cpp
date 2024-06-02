@@ -5,6 +5,10 @@ using namespace std;
 
 
 int main() {
-	
+	Spaghetti clua(2, 14, 13);
+
+	testTypeSpaghetti(clua);
+	testDiscriptionSpaghetti(clua);
+
 
 }
