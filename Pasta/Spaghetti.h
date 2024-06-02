@@ -2,5 +2,6 @@
 #include "Pasta.h"
 
 class Spaghetti : public Pasta {
+public:
 
 };
