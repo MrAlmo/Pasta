@@ -3,5 +3,7 @@
 
 class Spaghetti : public Pasta {
 public:
-
+	
+	std::string Type();
+	std::string Discription();
 };
