@@ -130,10 +130,12 @@
     <ClCompile Include="Pasta.cpp" />
     <ClCompile Include="Project.cpp" />
     <ClCompile Include="Spaghetti.cpp" />
+    <ClCompile Include="testSpaghetti.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h" />
     <ClInclude Include="Spaghetti.h" />
+    <ClInclude Include="testSpaghetti.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
