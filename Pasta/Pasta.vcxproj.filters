@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{8242745b-aad7-47d1-ac4c-d96c4219499c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Project.cpp">
@@ -22,9 +25,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Spaghetti.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="testSpaghetti.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Pappardelle.cpp">
@@ -39,15 +39,15 @@
     <ClCompile Include="Tortellini.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="testSpaghetti.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Spaghetti.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testSpaghetti.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pappardelle.h">
@@ -61,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="Tortellini.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testSpaghetti.h">
+      <Filter>tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
