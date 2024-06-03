@@ -131,6 +131,7 @@
     <ClCompile Include="Pasta.cpp" />
     <ClCompile Include="Penne.cpp" />
     <ClCompile Include="Project.cpp" />
+    <ClCompile Include="Ravioli.cpp" />
     <ClCompile Include="Spaghetti.cpp" />
     <ClCompile Include="testSpaghetti.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="Pappardelle.h" />
     <ClInclude Include="Pasta.h" />
     <ClInclude Include="Penne.h" />
+    <ClInclude Include="Ravioli.h" />
     <ClInclude Include="Spaghetti.h" />
     <ClInclude Include="testSpaghetti.h" />
   </ItemGroup>
