@@ -134,6 +134,7 @@
     <ClCompile Include="Ravioli.cpp" />
     <ClCompile Include="Spaghetti.cpp" />
     <ClCompile Include="testSpaghetti.cpp" />
+    <ClCompile Include="Tortellini.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pappardelle.h" />
@@ -142,6 +143,7 @@
     <ClInclude Include="Ravioli.h" />
     <ClInclude Include="Spaghetti.h" />
     <ClInclude Include="testSpaghetti.h" />
+    <ClInclude Include="Tortellini.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,6 +36,9 @@
     <ClCompile Include="Ravioli.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tortellini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Ravioli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tortellini.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
