@@ -29,3 +29,9 @@ void Pasta::SetLength(double _length) {
 void Pasta::SetCookingTime(double _cookingTime) {
 	cookingTime = _cookingTime;
 }
+
+Pasta::Pasta(const Pasta& other):
+	width(other.width),
+	length(other.length),
+	cookingTime(other.cookingTime)
+{}

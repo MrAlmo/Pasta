@@ -23,6 +23,6 @@ public:
 	void SetLength(double _length);
 	void SetCookingTime(double _cookingTime);
 
-	Pasta(const Pasta&) = delete;
+	Pasta(const Pasta& other);
 	Pasta& operator=(const Pasta&) = delete;
 };
