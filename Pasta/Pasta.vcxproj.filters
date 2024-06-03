@@ -24,12 +24,24 @@
     <ClCompile Include="Spaghetti.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="testSpaghetti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pappardelle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Spaghetti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testSpaghetti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pappardelle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
