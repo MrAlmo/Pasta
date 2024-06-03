@@ -9,5 +9,5 @@ std::string Spaghetti::Type() {
 }
 
 std::string Spaghetti::Discription() {
-	return "A long, thin, solid, cylindrical pasta";
+	return "A long, thin, solid, cylindrical pasta.";
 }

@@ -30,6 +30,9 @@
     <ClCompile Include="Pappardelle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Penne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pappardelle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Penne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
