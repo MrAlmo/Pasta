@@ -12,5 +12,5 @@ int main() {
 	cout << endl;
 	testGetAllParametersSpaghetti(clua);
 
-
+	return 0;
 }
