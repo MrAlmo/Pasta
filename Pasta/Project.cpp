@@ -1,16 +1,16 @@
 #include <iostream>
 #include "Spaghetti.h"
-#include "testSpaghetti.h"
+#include "testPasta.h"
 using namespace std;
 
 
 int main() {
 	Spaghetti clua(2, 14, 13);
 
-	testTypeSpaghetti(clua);
-	testDiscriptionSpaghetti(clua);
+	testType(&clua);
+	testDiscription(&clua);
 	cout << endl;
-	testGetAllParametersSpaghetti(clua);
+	testGetAllParameters(&clua);
 
 	return 0;
 }

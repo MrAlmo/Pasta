@@ -39,7 +39,7 @@
     <ClCompile Include="Tortellini.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="testSpaghetti.cpp">
+    <ClCompile Include="testPasta.cpp">
       <Filter>tests</Filter>
     </ClCompile>
     <ClCompile Include="Lasagna.cpp">
@@ -65,7 +65,7 @@
     <ClInclude Include="Tortellini.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="testSpaghetti.h">
+    <ClInclude Include="testPasta.h">
       <Filter>tests</Filter>
     </ClInclude>
     <ClInclude Include="Lasagna.h">
