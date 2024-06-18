@@ -7,3 +7,7 @@ PoorMan::PoorMan(std::string _name, std::string _surname, int _age):
 void PoorMan::To_Eat(Pasta* a) {
 
 }
+
+void PoorMan::To_Cook(Pasta* a) {
+
+}
