@@ -9,7 +9,7 @@ PoorMan::PoorMan(std::string _name, std::string _surname, int _age):
 void PoorMan::To_Eat(Pasta* a) {
 	To_Cook(a);
 	if (TOF == false) {
-		std::cout << "You have lost your " << a->Type() << "! :(" << std::endl;
+		std::cout << name <<" has lost his " << a->Type() << "! :(" << std::endl;
 	}
 	else {
 		std::cout << "Sits down on the floor and clumsily begins to eat." << std::endl;
@@ -29,13 +29,13 @@ void PoorMan::To_Eat(Pasta* a) {
 }
 
 void PoorMan::To_Cook(Pasta* a) {
-	
+	TOF = true;
 	std::cout << name << " Take " << a->Type();
 	std::this_thread::sleep_for(std::chrono::seconds(1));
 	if (a->Type() == "Lasagna") {
 		std::cout << " then understood that he doesen't have an Oven. "<< std::endl;
 		std::this_thread::sleep_for(std::chrono::seconds(1));
-		std::cout << "Failed!";
+		std::cout << "Failed!" << std::endl;
 		TOF = false;
 	}
 	else {

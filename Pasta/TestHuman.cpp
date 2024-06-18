@@ -10,8 +10,9 @@ void testTo_Eat(Human* a, Pasta* b) {
 	a->To_Eat(b);
 }
 
-void testTo_Cook(PoorMan a, Pasta* b) {
+void testToCook(PoorMan a, Pasta* b) {
 	a.To_Cook(b);
+	std::cout << "TOF = " << a.GetTOF() << std::endl;
 }
 void testToCook(BusinessMan a, Pasta* b) {
 	a.To_Cook(b);
@@ -19,6 +20,8 @@ void testToCook(BusinessMan a, Pasta* b) {
 
 void testHuman(Human* a, Pasta* b) {
 	testDisplayAllParameters(a);
+	std::cout << std::endl;
 	testTo_Eat(a, b);
+	std::cout << std::endl;
 }
 

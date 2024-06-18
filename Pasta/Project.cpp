@@ -34,6 +34,35 @@ int main() {
 	testPasta(&Ravioli_);
 	testPasta(&Tordellini_);
 	
+	std::cout << "------------------------------------------" << std::endl;
+
+	testHuman(&Bob, &Pappardelle_);
+	testHuman(&Pablo, &Pappardelle_);
+	testHuman(&Bob, &Spaghetti_);
+	testHuman(&Pablo, &Spaghetti_);
+	testHuman(&Bob, &Lasagna_);
+	testHuman(&Pablo, &Lasagna_);
+	testHuman(&Bob, &Penne_);
+	testHuman(&Pablo, &Penne_);
+	testHuman(&Bob, &Ravioli_);
+	testHuman(&Pablo, &Ravioli_);
+	testHuman(&Bob, &Tordellini_);
+	testHuman(&Pablo, &Tordellini_);
+
+	std::cout << "------------------------------------------" << std::endl;
+
+	testToCook(Bob, &Pappardelle_);
+	testToCook(Pablo, &Pappardelle_);
+	testToCook(Bob, &Spaghetti_);
+	testToCook(Pablo, &Spaghetti_);
+	testToCook(Bob, &Lasagna_);
+	testToCook(Pablo, &Lasagna_);
+	testToCook(Bob, &Penne_);
+	testToCook(Pablo, &Penne_);
+	testToCook(Bob, &Ravioli_);
+	testToCook(Pablo, &Ravioli_);
+	testToCook(Bob, &Tordellini_);
+	testToCook(Pablo, &Tordellini_);
 
 	return 0;
 }

@@ -11,7 +11,7 @@ void BusinessMan::To_Eat(Pasta* a) {
 		std::cout << i << std::endl;
 		std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
-	std::cout << "Done!";
+	std::cout << "Done!"<<std::endl;
 }
 
 void BusinessMan::To_Cook(Pasta* a) {
