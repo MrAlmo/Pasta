@@ -15,7 +15,7 @@ void BusinessMan::To_Eat(Pasta* a) {
 }
 
 void BusinessMan::To_Cook(Pasta* a) {
-	std::cout<< name << " Take "<<a->Type(); 
+	std::cout<< name << " Takes "<<a->Type(); 
 	std::this_thread::sleep_for(std::chrono::seconds(1));
 	if (a->Type() == "Lasagna") {
 		std::cout << " then opened the oven and put the " << a->Type() << " in there." << std::endl;

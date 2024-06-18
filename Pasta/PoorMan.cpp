@@ -30,7 +30,7 @@ void PoorMan::To_Eat(Pasta* a) {
 
 void PoorMan::To_Cook(Pasta* a) {
 	TOF = true;
-	std::cout << name << " Take " << a->Type();
+	std::cout << name << " Takes " << a->Type();
 	std::this_thread::sleep_for(std::chrono::seconds(1));
 	if (a->Type() == "Lasagna") {
 		std::cout << " then understood that he doesen't have an Oven. "<< std::endl;
