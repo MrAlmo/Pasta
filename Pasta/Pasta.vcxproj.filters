@@ -54,6 +54,9 @@
     <ClCompile Include="PoorMan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestHuman.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
@@ -88,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="PoorMan.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHuman.h">
+      <Filter>tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
