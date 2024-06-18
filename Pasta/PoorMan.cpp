@@ -7,7 +7,7 @@ PoorMan::PoorMan(std::string _name, std::string _surname, int _age):
 {}
 
 void PoorMan::To_Eat(Pasta* a) {
-	To_Eat(a);
+	To_Cook(a);
 	if (TOF == false) {
 		std::cout << "You have lost your " << a->Type() << "! :(" << std::endl;
 	}
