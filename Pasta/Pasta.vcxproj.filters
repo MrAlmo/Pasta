@@ -51,6 +51,9 @@
     <ClCompile Include="BusinessMan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PoorMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pasta.h">
@@ -81,6 +84,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BusinessMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoorMan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

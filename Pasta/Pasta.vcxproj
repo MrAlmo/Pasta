@@ -133,6 +133,7 @@
     <ClCompile Include="Pappardelle.cpp" />
     <ClCompile Include="Pasta.cpp" />
     <ClCompile Include="Penne.cpp" />
+    <ClCompile Include="PoorMan.cpp" />
     <ClCompile Include="Project.cpp" />
     <ClCompile Include="Ravioli.cpp" />
     <ClCompile Include="Spaghetti.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Pappardelle.h" />
     <ClInclude Include="Pasta.h" />
     <ClInclude Include="Penne.h" />
+    <ClInclude Include="PoorMan.h" />
     <ClInclude Include="Ravioli.h" />
     <ClInclude Include="Spaghetti.h" />
     <ClInclude Include="testPasta.h" />
