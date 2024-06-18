@@ -14,3 +14,11 @@ void testGetAllParameters(Pasta* a) {
 	std::cout << a->GetCookingTime() << std::endl;
 
 }
+
+void testPasta(Pasta* a) {
+	testType(a);
+	testDiscription(a);
+	std::cout << std::endl;
+	testGetAllParameters(a);
+	std::cout << std::endl;
+}
