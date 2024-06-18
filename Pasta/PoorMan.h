@@ -10,4 +10,7 @@ public:
 
 	void To_Cook(Pasta* a);
 	void To_Eat(Pasta* a);
+
+	bool GetTOF() const;
+	void SetTOF(bool _TOF);
 };

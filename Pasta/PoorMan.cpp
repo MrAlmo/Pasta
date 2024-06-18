@@ -58,3 +58,10 @@ void PoorMan::To_Cook(Pasta* a) {
 		
 	}
 }
+
+bool PoorMan::GetTOF() const {
+	return TOF;
+}
+void PoorMan::SetTOF(bool _TOF) {
+	TOF = _TOF;
+}
