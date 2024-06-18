@@ -1,4 +1,5 @@
 #pragma once
+#include <thread>
 #include "Human.h"
 
 class BusinessMan : public Human {
