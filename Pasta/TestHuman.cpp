@@ -17,3 +17,8 @@ void testToCook(BusinessMan a, Pasta* b) {
 	a.To_Cook(b);
 }
 
+void testHuman(Human* a, Pasta* b) {
+	testDisplayAllParameters(a);
+	testTo_Eat(a, b);
+}
+
