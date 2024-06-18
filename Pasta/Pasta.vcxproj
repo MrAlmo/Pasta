@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="Lasagna.cpp" />
     <ClCompile Include="Pappardelle.cpp" />
     <ClCompile Include="Pasta.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="Tortellini.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Human.h" />
     <ClInclude Include="Lasagna.h" />
     <ClInclude Include="Pappardelle.h" />
     <ClInclude Include="Pasta.h" />
