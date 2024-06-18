@@ -1,5 +1,7 @@
 #pragma once
 #include "Human.h"
+#include <thread>
+#include <cstdlib>
 
 class PoorMan : public Human {
 
