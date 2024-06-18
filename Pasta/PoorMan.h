@@ -4,7 +4,7 @@
 #include <cstdlib>
 
 class PoorMan : public Human {
-
+	bool TOF = true;
 public:
 	PoorMan(std::string _name, std::string _surname, int _age);
 
