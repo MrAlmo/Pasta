@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "Pasta.h"
 
 class Human {
 protected:
@@ -12,7 +13,7 @@ protected:
 public:
 	virtual ~Human() = default;
 
-	virtual void To_Eat() = 0;
+	virtual void To_Eat(Pasta* a) = 0;
 
 	std::string GetName() const;
 	std::string GetSurname() const;

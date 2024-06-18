@@ -4,6 +4,6 @@ PoorMan::PoorMan(std::string _name, std::string _surname, int _age):
 	Human(_name, _surname, _age)
 {}
 
-void PoorMan::To_Eat() {
+void PoorMan::To_Eat(Pasta* a) {
 
 }
